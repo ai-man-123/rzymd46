@@ -1,6 +1,6 @@
 module.exports = {
 	name: "help",
-	alias: ["h", "cmd", "menu"],
+	alias: ["aiman", "cmd", "menu"],
 	category: "umum",
 	async run(msg, conn, q, isOwner, body, map, config, args) {
 		if (q) {
@@ -53,7 +53,7 @@ module.exports = {
 					footer: config.namebot + " • " + config.ownername,
 					templateButtons: [
 						{ urlButton: { displayText: "Report Bug", url: "https://chat.rzkyfdlh.tech" } },
-						{ urlButton: { displayText: "Downloader Website", url: "https://downloader.rzkyfdlh.tech" } },
+						{ urlButton: { displayText: "Tiktok owner", url: "https://tiktok.com/@aiman_night" } },
 					],
 				},
 				{ quoted: msg }
