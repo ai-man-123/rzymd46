@@ -52,7 +52,7 @@ module.exports = {
 					text: str,
 					footer: config.namebot + " • " + config.ownername,
 					templateButtons: [
-						{ urlButton: { displayText: "Report Bug", url: "https://chat.rzkyfdlh.tech" } },
+						{ callButton: {displayText: 'Call me!', phoneNumber: '+60 10-281 0046'}},
 						{ urlButton: { displayText: "Tiktok owner", url: "https://tiktok.com/@aiman_night" } },
 					],
 				},
